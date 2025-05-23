@@ -56,8 +56,10 @@ get_header();
         the_row();
         $file_field = get_sub_field('file');
       ?>
+      <div>
         <span class="label"><?= get_sub_field('label'); ?>&nbsp;</span>
         <a class="file" href="<?php echo esc_url($file_field['url']); ?>"><?= get_sub_field('name'); ?></a>
+      </div>
       <?php } ?>
     </div>
     <?php } ?>   
