@@ -117,7 +117,7 @@ header.site-header .custom-logo-link img.custom-logo{
 }
 
 .home-page .file-list {
-    display: flex;
+/*     display: flex; */
     justify-content: center;
     margin-bottom: 2rem;
     margin-top: 2rem;
